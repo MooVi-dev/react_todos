@@ -1,0 +1,29 @@
+.mainPage {
+  min-height: 80vh;
+  padding: 10px 20px;
+
+  .addTodo {
+
+    .addTodo-form {
+      display: flex;
+      margin: 40px 0;
+
+      .addTodo-form__input {
+        border: 1px solid #eee;
+        border-radius: 5px;
+        padding: 0px 20px;
+      }
+
+      .addTodo-form__btn {
+        border: 1px solid #eee;
+        border-radius: 5px;
+        padding: 10px 20px;
+        
+      }
+    }
+  }
+
+  .axios {
+    margin: 50px;
+  }
+}

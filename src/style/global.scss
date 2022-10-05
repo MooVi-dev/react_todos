@@ -1,0 +1,35 @@
+@import './normalize.scss';
+@import './header.scss';
+@import './footer.scss';
+@import './mainPage.scss';
+@import './todoPage.scss';
+
+body {
+  color:forestgreen;
+}
+
+.todoList {
+  .todoList__item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    background-color: #e2e2e2;
+    margin: 5px 0;
+  }
+}
+
+.todo-done {
+  background-color: #35d45d;
+}
+
+.changing {
+  display: none;
+}
+
+.noChanging {
+  display: block;
+}
+
+.changeTitleInput {
+  background-color: white;
+}
